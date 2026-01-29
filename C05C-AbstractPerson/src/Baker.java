@@ -10,7 +10,6 @@ public class Baker extends Person {
 	 */
 	
 	String favoritePie;
-	int rnd; // random to choose pie for each instance
 	
 	public Baker(String myName, String occupation, String favoritePie) {
 		super(myName, occupation);
