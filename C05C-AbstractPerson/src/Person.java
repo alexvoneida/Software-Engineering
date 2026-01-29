@@ -8,8 +8,8 @@ abstract public class Person {
 	 * 
 	 * Purpose: Abstract parent class for children
 	 */
-	String myName;
-	String occupation;
+	private String myName;
+	private String occupation;
 	
 	public Person(String myName, String occupation) {
 		this.myName = myName;
