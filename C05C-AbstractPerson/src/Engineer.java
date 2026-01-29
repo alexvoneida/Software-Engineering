@@ -4,6 +4,11 @@ public class Engineer extends Person {
 	String[] answerList = {"I hate java so much", "I am partial towards apples", "My dogs name is Rowdy"};
 	Integer currentQuestion = 0;
 	Integer currentAnswer = 0;
+	@Override
+	void whatIDo() {
+		super.whatIDo();
+		System.out.println("I really enjoy coding");
+	}
 	void askQuestion() {
 		System.out.println(questionList[currentQuestion]);
 		currentQuestion = (currentQuestion + 1) % questionList.length;
